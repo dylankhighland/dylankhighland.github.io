@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 ---
 ## Dylan K. Highland, B.S 
-### Ph.D Student [CV](https://kfarleigh.github.io/CV/KFarleigh_CV_2-2-2025.pdf)
+### Ph.D Student [CV](https://github.com/dylankhighland/dylankhighland.github.io/blob/main/CV/dkh_cv_20250215.pdf)
 [The Schield Lab](https://schieldlab.org/), University of Virginia
 
 ### Education
