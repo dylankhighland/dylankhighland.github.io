@@ -5,12 +5,7 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Code"
-    url: /code/
-  - title: "Blog"
-    url: /blog/
-    link: /blog.html
-  - title: "Book"
-    url: /book/
+  - title: "Fieldwork"
+    url: /fieldwork/
   - title: "Contact"
     url: /contact/
