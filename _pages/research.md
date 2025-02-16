@@ -10,4 +10,4 @@ I am driven to understand the genomic architecture behind differential phenotype
 
 3\. __*How can modern morphometric and genomic techniques be combined to better understand the current diversity of species?*__
 
-I approach these questions through applied ecology and genomic analyses. 
+I approach these questions through applied ecology and genomic analyses.	 
