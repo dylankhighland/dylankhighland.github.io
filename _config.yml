@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Keaka Farleigh"
+title                    : "Dylan K. Highland"
 title_separator          : "-"
-name                     : "Keaka Farleigh"
-description              : "Genomics of local adptation"
-url                      : # "https://github.com/kfarleigh/kfarleigh.github.io"
+name                     : "Dylan K. Highland"
+description              : "Population genomics, trait evolution, and speciation"
+url                      : # "https://github.com/dylankhighland/dylankhighland.github.io"
 baseurl                  :
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -95,7 +95,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kfarleigh"
+      url: "https://github.com/dylankhighland"
 
 # Analytics
 analytics:
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Keaka Farleigh"
-  avatar           : /images/Headshot_2_cropped.PNG
-  bio              : "NSF Postdoctoral Fellow studying bioinformatics, data science, and population genomics"
+  name             : "Dylan K. Highland"
+  avatar           : /images/headshot_beanie.jpg
+  bio              : "UVA"
   location         : "University of Virginia"
-  email            : "farleik@miamioh.edu"
+  email            : "dylankhighland@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -120,13 +120,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "kfarleigh"
+  github           : "dylankhighland"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "keaka-farleigh-5a638211a"
+  linkedin         : "https://www.linkedin.com/in/dylanhighland/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
