@@ -8,4 +8,4 @@ I am driven to understand the genomic architecture behind differential phenotype
 2\. __*How are distinct, complex phenotypes expressed within a species, and what external drivers maintain these polymorphisms?*__
 3\. __*How can modern morphometric and genomic techniques be combined to better understand the current diversity of species?*__
 
-I approach these questions through applied ecology and genomic analyses. Is I develop  
+I approach these questions through applied ecology and genomic analyses. 
