@@ -11,6 +11,7 @@ permalink: /about/
 B.S. – Wildlife Biology, Cal Poly Humboldt, 2023
 
 A.S. - Natural Sciences, Santa Rosa Junior College, 2021
+
 A.A. - Social and Behavioral Sciences, Santa Rosa Junior College, 2021
 
 ### Research Interests
