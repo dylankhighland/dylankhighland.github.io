@@ -15,8 +15,8 @@ A.S. - Natural Sciences, Santa Rosa Junior College, 2021
 A.A. - Social and Behavioral Sciences, Santa Rosa Junior College, 2021
 
 ### Research Interests
-- Speciation
 - Systematics 
+- Speciation
 - Venomics
 - Population genomics
-- Trait evolution
+- Trait evolution 
