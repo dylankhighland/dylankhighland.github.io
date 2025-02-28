@@ -7,3 +7,13 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(~/Downloads/Montserrat/static/Montserrat-Bold.ttf) format(Example: 'truetype' or 'opentype' depending on the file extension of your font);
+}
+
+
+// USAGE
+body {
+    font-family: 'Open Sans', sans-serif;
+}
