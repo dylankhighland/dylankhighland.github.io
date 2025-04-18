@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 ---
 ## Dylan K. Highland, B.S
-### Ph.D Student [CV](https://dylankhighland.github.io/CV/highland_cv_20250418.pdf.nojekyll)
+### Ph.D Student [CV](https://dylankhighland.github.io/CV/highland_cv_20250418.pdf).nojekyll
 [The Schield Lab](https://schieldlab.org/), University of Virginia
 
 ### Who am I?
