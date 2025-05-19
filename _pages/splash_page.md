@@ -9,5 +9,5 @@ header:
   actions:
     - label: "About"
       url: "/about/"
-excerpt: "Applied genomics and ecology"
+excerpt: "Population genetics, speciation, and evolution"
 ---
