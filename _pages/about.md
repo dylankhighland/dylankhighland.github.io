@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "In all things of nature, there is something of the marvelous." - _Aristotle_
+subtitle: "In all things of nature, there is something of the marvelous." - Aristotle
 
 profile:
   align: right
