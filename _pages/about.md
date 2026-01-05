@@ -32,6 +32,3 @@ I am a biology PhD student in the [Schield Lab](https://schieldlab.org/) at the 
 Broadly, I am interested in the genomic consequences of coevolution. My current research seeks to describe the complex interactions between fitness traits in a diffusely coevolving predator and prey system, using rattlesnakes (*Crotalus* spp.) and their rodent prey. In this system, predator exploit multiple prey species, and prey are subject to many predators and other selective forces, which may describe the notable complexity of venom composition in snakes and venom-resistance in prey.
 
 I use comparative genomics, population genetics, and molecular assays to describe the recipricol coevolution of venom and resistance wetween ad within species of varying levels of divergence, with the goal of describing how heterogenous landscapes may result in fine-scaled local adpatation of these complex traits to sympatric antagonists.
-
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
