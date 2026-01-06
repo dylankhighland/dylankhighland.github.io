@@ -95,20 +95,28 @@
   "publications": [
     {
       "title": "Mitochondrial phylogeny and molecular-based species delimitation illuminate cryptic diversity in saw-scaled vipers (Viperidae; Echis)",
+      "name": "Mitochondrial phylogeny and molecular-based species delimitation illuminate cryptic diversity in saw-scaled vipers (Viperidae; Echis)",
       "authors": "Highland, D.K. and E.A. Myers",
       "year": "2025",
+      "releaseDate": "2025",
       "journal": "The Herpetological Journal",
+      "publisher": "The Herpetological Journal",
       "volume": "35(4)",
       "pages": "333-340",
+      "summary": "Highland, D.K. and E.A. Myers. 2025. Mitochondrial phylogeny and molecular-based species delimitation illuminate cryptic diversity in saw-scaled vipers.",
       "url": "https://doi.org/10.33256/35.4.333340"
     },
     {
       "title": "Selection shapes repeated genomic landscapes of divergence across the speciation continuum in swallows (Hirundo)",
+      "name": "Selection shapes repeated genomic landscapes of divergence across the speciation continuum in swallows (Hirundo)",
       "authors": "Schield, D.R.; Carter, J.K.; Alderman, M.G.; Farleigh, K.; Highland, D.K.; Safran, R.J.",
       "year": "2025",
+      "releaseDate": "2025",
       "journal": "Molecular Ecology",
+      "publisher": "Molecular Ecology",
       "volume": "34(22)",
       "id": "e70074",
+      "summary": "Schield et al. 2025. Selection shapes repeated genomic landscapes of divergence across the speciation continuum in swallows.",
       "url": "https://doi.org/10.1111/mec.70074"
     }
   ],
