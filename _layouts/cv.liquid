@@ -1,69 +1,8 @@
 ---
 layout: default
 ---
-{% unless site.data.resume or page.use_json_resume %}
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
-      </h1>
-      {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
-      {% endif %}
-    </header>
-
-    <article>
-      <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            {% assign yaml_title = entry.title %}
-            {% case entry.title | downcase %}
-              {% when 'basics' %}
-                {% assign yaml_title = 'Contact Information' %}
-              {% when 'awards' %}
-                {% assign yaml_title = 'Academic Distinctions' %}
-              {% when 'grants' %}
-                {% assign yaml_title = 'Monetary Awards and Grants' %}
-              {% when 'volunteer' %}
-                {% assign yaml_title = 'Community Engagement' %}
-            {% endcase %}
-            <h3 class="card-title font-weight-medium">{{ yaml_title }}</h3>
-            <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </article>
-  </div>
-{% else %}
+{% if page.use_json_resume or site.data.resume %}
+  <!-- JSON Resume Path (Preferred) -->
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -172,4 +111,114 @@ layout: default
       </div>
     </article>
   </div>
-{% endunless %}
+{% else %}
+  <!-- YAML CV Fallback -->
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        {{ page.title }}
+        {% if page.cv_pdf %}
+          <a
+            {% if page.cv_pdf contains '://' %}
+              href="{{ page.cv_pdf }}"
+            {% else %}
+              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+          >
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        {% endif %}
+      </h1>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+    </header>
+
+    <article>
+      <div class="cv">
+        {% for data in site.data.resume %}
+          {% if site.jsonresume and site.jsonresume.size > 0 %}
+            {% unless site.jsonresume contains data[0] %}
+              {% continue %}
+            {% endunless %}
+          {% endif %}
+          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+          <a class="anchor" id="{{ data[0] }}"></a>
+          <div class="card mt-3 p-3">
+              {% assign custom_title = site.jsonresume_titles[data[0]] %}
+              {% if custom_title %}
+                {% assign section_title = custom_title %}
+              {% else %}
+            {% case data[0] %}
+              {% when 'research_experience' %}
+                {% assign section_title = 'Research Experience' %}
+              {% when 'manuscripts_in_prep_or_review' %}
+                {% assign section_title = 'Manuscripts in Prep or Review' %}
+              {% when 'professional_memberships' %}
+                {% assign section_title = 'Professional Memberships' %}
+              {% when 'field_expeditions' %}
+                {% assign section_title = 'Field Expeditions' %}
+              {% when 'volunteer_experience' %}
+                {% assign section_title = 'Volunteer Experience' %}
+              {% else %}
+                {% assign section_title = data[0] | capitalize %}
+            {% endcase %}
+              {% endif %}
+            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+            <div>
+              {% case data[0] %}
+                {% when 'basics' %}
+                  {% include resume/basics.liquid %}
+                {% when 'contact_information' %}
+                  {% include resume/basics.liquid %}
+                {% when 'education' %}
+                  {% include resume/education.liquid %}
+                {% when 'work' %}
+                  {% include resume/work.liquid %}
+                {% when 'research_experience' %}
+                  {% include resume/work.liquid %}
+                {% when 'research_experiences' %}
+                  {% include resume/work.liquid %}
+                {% when 'volunteer' %}
+                  {% include resume/volunteer.liquid %}
+                {% when 'community_engagement' %}
+                  {% include resume/volunteer.liquid %}
+                {% when 'projects' %}
+                  {% include resume/projects.liquid %}
+                {% when 'awards' %}
+                  {% include resume/awards.liquid %}
+                {% when 'academic_distinctions' %}
+                  {% include resume/awards.liquid %}
+                {% when 'grants' %}
+                  {% include resume/grants.liquid %}
+                {% when 'monetary_grants_and_awards' %}
+                  {% include resume/grants.liquid %}
+                {% when 'skills' %}
+                  {% include resume/skills.liquid %}
+                {% when 'publications' %}
+                  {% include resume/publications.liquid %}
+                {% when 'languages' %}
+                  {% include resume/languages.liquid %}
+                {% when 'interests' %}
+                  {% include resume/interests.liquid %}
+                {% when 'certificates' %}
+                  {% include resume/certificates.liquid %}
+                {% when 'presentations' %}
+                  {% include resume/presentations.liquid %}
+                {% when 'mentorship' %}
+                  {% include resume/mentorship.liquid %}
+                {% when 'references' %}
+                  {% include resume/references.liquid %}
+                {% else %}
+
+              {% endcase %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  </div>
+{% endif %}
