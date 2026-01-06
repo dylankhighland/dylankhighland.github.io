@@ -1,5 +1,5 @@
 {
-  "basics": {
+  "contact_information": {
     "name": "Dylan K. Highland",
     "label": "PhD Student in Biology",
     "image": "",
@@ -20,7 +20,7 @@
       { "network": "Google Scholar", "url": "" }
     ]
   },
-  "research_experience": [
+  "research_experiences": [
     {
       "name": "Department of Biology, University of Virginia (Schield Lab)",
       "position": "Graduate Researcher / PhD Student",
@@ -166,7 +166,7 @@
       "project": "Structural variation of PRDM9 across rattlesnake speciation"
     }
   ],
-  "awards": [
+  "academic_distinctions": [
     {
       "title": "Most Outstanding Research Presentation, Life Sciences",
       "date": "2024",
@@ -196,13 +196,13 @@
       "url": ""
     }
   ],
-  "grants": [
+  "monetary_grants_and_awards": [
     {"name": "Britt Travel Grant, University of Virginia", "year": 2024, "amount": 300},
     {"name": "SACNAS NDiSTEM Travel Grant", "year": 2024, "amount": 2000},
     {"name": "SACNAS NDiSTEM Travel Grant", "year": 2023, "amount": 1494},
     {"name": "Rocky Mountain Biological Laboratory REU Travel Grant", "year": 2023, "amount": 1200}
   ],
-  "volunteer_experience": [
+  "community_engagement": [
     {
       "organization": "Society for the Preservation of Natural History Collections (SPNHC)",
       "position": "Volunteer",
@@ -228,6 +228,24 @@
       "startDate": "2022-01",
       "endDate": "2023-12",
       "summary": "Special collections assistance and inventory management.",
+      "highlights": []
+    },
+    {
+      "organization": "All Hands Ecology",
+      "position": "Junior Docent at Bouverie Nature Preserve",
+      "location": "Glen Ellen, CA",
+      "startDate": "2008",
+      "endDate": "2016",
+      "summary": "Field research, education, and outreach at Bouverie Nature Preserve.",
+      "highlights": []
+    },
+    {
+      "organization": "All Hands Ecology",
+      "position": "Junior Docent at the Martin Griffin Nature Preserve",
+      "location": "Stinson, CA",
+      "startDate": "2008",
+      "endDate": "2016",
+      "summary": "Field research, education, and outreach at Martin Griffin Nature Preserve.",
       "highlights": []
     }
   ]

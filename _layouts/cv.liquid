@@ -88,7 +88,21 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% case data[0] %}
+              {% when 'research_experience' %}
+                {% assign section_title = 'Research Experience' %}
+              {% when 'manuscripts_in_prep_or_review' %}
+                {% assign section_title = 'Manuscripts in Prep or Review' %}
+              {% when 'professional_memberships' %}
+                {% assign section_title = 'Professional Memberships' %}
+              {% when 'field_expeditions' %}
+                {% assign section_title = 'Field Expeditions' %}
+              {% when 'volunteer_experience' %}
+                {% assign section_title = 'Volunteer Experience' %}
+              {% else %}
+                {% assign section_title = data[0] | capitalize %}
+            {% endcase %}
+            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
