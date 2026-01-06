@@ -653,12 +653,24 @@ jsonresume:
   - languages
   - interests
   - references
+  # Custom keys present in assets/json/resume.json
+  - contact_information
+  - research_experiences
+  - academic_distinctions
+  - monetary_grants_and_awards
+  - community_engagement
 
 # Optional display title overrides for JSON Resume sections.
 # Keys are the internal section keys; values are the headings to display.
 jsonresume_titles:
-  basics: "contact_information"
-  research_experience: "research_experiences"
-  awards: "academic_distinctions"
-  grants: "monetary_grants_and_awards"
-  volunteer: "community_engagement"
+  # Standard keys -> desired display labels
+  basics: "Contact Information"
+  awards: "Academic Distinctions"
+  grants: "Monetary Awards and Grants"
+  volunteer: "Community Engagement"
+  # Custom keys -> desired display labels
+  contact_information: "Contact Information"
+  research_experiences: "Research Experiences"
+  academic_distinctions: "Academic Distinctions"
+  monetary_grants_and_awards: "Monetary Awards and Grants"
+  community_engagement: "Community Engagement"

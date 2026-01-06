@@ -112,19 +112,29 @@ layout: default
               {% case data[0] %}
                 {% when 'basics' %}
                   {% include resume/basics.liquid %}
+                {% when 'contact_information' %}
+                  {% include resume/basics.liquid %}
                 {% when 'education' %}
                   {% include resume/education.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
                 {% when 'research_experience' %}
                   {% include resume/work.liquid %}
+                {% when 'research_experiences' %}
+                  {% include resume/work.liquid %}
                 {% when 'volunteer' %}
+                  {% include resume/volunteer.liquid %}
+                {% when 'community_engagement' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
+                {% when 'academic_distinctions' %}
+                  {% include resume/awards.liquid %}
                 {% when 'grants' %}
+                  {% include resume/grants.liquid %}
+                {% when 'monetary_grants_and_awards' %}
                   {% include resume/grants.liquid %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
