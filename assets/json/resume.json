@@ -120,18 +120,6 @@
       "url": "https://doi.org/10.1111/mec.70074"
     }
   ],
-  "manuscripts_in_prep_or_review": [
-    {
-      "title": "Monarch trans-Atlantic dispersal and colonization",
-      "status": "in prep",
-      "authors": "Highland, D.K.; Alderman, M.G.; Talla, V.; et al."
-    },
-    {
-      "title": "The genomic landscape of introgression during rattlesnake speciation",
-      "status": "in prep",
-      "authors": "Farleigh, K.; Highland, D.K.; Alderman, M.G.; et al."
-    }
-  ],
   "presentations": [
     {
       "year": "2025",
@@ -214,16 +202,7 @@
     {"name": "SACNAS NDiSTEM Travel Grant", "year": 2023, "amount": 1494},
     {"name": "Rocky Mountain Biological Laboratory REU Travel Grant", "year": 2023, "amount": 1200}
   ],
-  "professional_memberships": [
-    "British Herpetological Society (2025–Present)",
-    "American Society of Naturalists (2023–Present)",
-    "SACNAS (2023–Present)",
-    "SPNHC (2023–Present)",
-    "Society for the Study of Evolution (2023–Present)",
-    "Society of Systematic Biologists (2023–Present)",
-    "The Wildlife Society (2021–Present)"
-  ],
-  "volunteer": [
+  "volunteer_experience": [
     {
       "organization": "Society for the Preservation of Natural History Collections (SPNHC)",
       "position": "Volunteer",
@@ -245,21 +224,11 @@
     {
       "organization": "Sonoma County Library",
       "position": "Special Collections & Inventory Management Volunteer",
-      "location": "Arcata, CA",
+      "location": "Petaluma, CA",
       "startDate": "2022-01",
       "endDate": "2023-12",
       "summary": "Special collections assistance and inventory management.",
       "highlights": []
     }
-  ],
-  "field_expeditions": [
-    {"title": "Specimen & Tissue Collection Trip (California)", "dates": "May–June 2025"},
-    {"title": "Specimen & Tissue Collection Trip (Arizona)", "dates": "August 2024"}
-  ],
-  "references": [
-    {"name": "Dr. Drew R. Schield, PhD", "title": "Assistant Professor, Department of Biology, University of Virginia", "email": "drew.schield@virginia.edu", "phone": "(434) 924-6873"},
-    {"name": "Dr. Alan O. Bergland, PhD", "title": "Associate Professor and Director of Graduate Studies, Department of Biology, University of Virginia", "email": "alan.bergland@virginia.edu", "phone": "(434) 924-1930"},
-    {"name": "Dr. Edward A. Myers, PhD", "title": "Research Scientist, Department of Herpetology, California Academy of Sciences", "email": "emyers@calacademy.org", "phone": "(509) 438-0460"},
-    {"name": "Dr. Keaka Farleigh, PhD", "title": "NSF Postdoctoral Research Fellow in Biology, University of Virginia", "email": "keakafarleigh@virginia.edu", "phone": ""}
   ]
 }
