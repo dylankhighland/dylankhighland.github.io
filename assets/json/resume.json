@@ -20,7 +20,7 @@
       { "network": "Google Scholar", "url": "" }
     ]
   },
-  "work": [
+  "research_experience": [
     {
       "name": "Department of Biology, University of Virginia (Schield Lab)",
       "position": "Graduate Researcher / PhD Student",
@@ -146,6 +146,27 @@
       "type": "Poster",
       "event": "Expand Fellowship Poster Event",
       "location": "Charlottesville, VA"
+    },
+    {
+      "year": "2025",
+      "title": "Population genomics of venom genes in Speckled Rattlesnakes",
+      "type": "Poster",
+      "event": "Biology of Pit Vipers 5",
+      "location": "Rodeo, NM"
+    },
+    {
+      "year": "2024",
+      "title": "Single-locus delimitation methods suggest undescribed diversity in saw-scaled vipers",
+      "type": "Poster",
+      "event": "SACNAS NDiSTEM",
+      "location": "Phoenix, AZ"
+    },
+    {
+      "year": "2023",
+      "title": "Objective species delimitation for a consistent taxonomy in saw-scaled vipers",
+      "type": "Poster",
+      "event": "IdeaFest",
+      "location": "Arcata, CA"
     }
   ],
   "mentorship": [
@@ -157,11 +178,35 @@
       "project": "Structural variation of PRDM9 across rattlesnake speciation"
     }
   ],
-  "honors_awards": [
-    "Most Outstanding Research Presentation, Life Sciences, SACNAS NDiSTEM (2024)",
-    "Presidential Scholar, Cal Poly Humboldt (2022–2023)",
-    "Dean's List, Cal Poly Humboldt (2021)",
-    "Best Student Research in Biology, Santa Rosa Junior College (2019)"
+  "awards": [
+    {
+      "title": "Most Outstanding Research Presentation, Life Sciences",
+      "date": "2024",
+      "awarder": "SACNAS NDiSTEM",
+      "summary": "Most Outstanding Research Presentation, Life Sciences, SACNAS NDiSTEM (2024).",
+      "url": ""
+    },
+    {
+      "title": "Presidential Scholar, Cal Poly Humboldt",
+      "date": "2022",
+      "awarder": "Cal Poly Humboldt",
+      "summary": "Presidential Scholar (2022–2023).",
+      "url": ""
+    },
+    {
+      "title": "Dean's List, Cal Poly Humboldt",
+      "date": "2021",
+      "awarder": "Cal Poly Humboldt",
+      "summary": "Dean's List (2021).",
+      "url": ""
+    },
+    {
+      "title": "Best Student Research in Biology",
+      "date": "2019",
+      "awarder": "Santa Rosa Junior College",
+      "summary": "Best Student Research in Biology (2019).",
+      "url": ""
+    }
   ],
   "grants": [
     {"name": "Britt Travel Grant, University of Virginia", "year": 2024, "amount": 300},
@@ -179,9 +224,33 @@
     "The Wildlife Society (2021–Present)"
   ],
   "volunteer": [
-    {"role": "Volunteer, SPNHC Conference (Summer 2023)", "location": "San Francisco, CA"},
-    {"role": "Volunteer, Friends of the Dunes", "location": "Arcata, CA (2022–2023)"},
-    {"role": "Special collections & inventory management, Sonoma County Library", "location": "Arcata, CA (2022–2023)"}
+    {
+      "organization": "Society for the Preservation of Natural History Collections (SPNHC)",
+      "position": "Volunteer",
+      "location": "San Francisco, CA",
+      "startDate": "2023-06",
+      "endDate": "2023-08",
+      "summary": "Volunteer for SPNHC conference activities and collections support.",
+      "highlights": []
+    },
+    {
+      "organization": "Friends of the Dunes",
+      "position": "Volunteer",
+      "location": "Arcata, CA",
+      "startDate": "2022-01",
+      "endDate": "2023-12",
+      "summary": "Community outreach and dune restoration volunteer work.",
+      "highlights": []
+    },
+    {
+      "organization": "Sonoma County Library",
+      "position": "Special Collections & Inventory Management Volunteer",
+      "location": "Arcata, CA",
+      "startDate": "2022-01",
+      "endDate": "2023-12",
+      "summary": "Special collections assistance and inventory management.",
+      "highlights": []
+    }
   ],
   "field_expeditions": [
     {"title": "Specimen & Tissue Collection Trip (California)", "dates": "May–June 2025"},
