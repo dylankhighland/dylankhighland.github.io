@@ -88,6 +88,10 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
+              {% assign custom_title = site.jsonresume_titles[data[0]] %}
+              {% if custom_title %}
+                {% assign section_title = custom_title %}
+              {% else %}
             {% case data[0] %}
               {% when 'research_experience' %}
                 {% assign section_title = 'Research Experience' %}
@@ -102,6 +106,7 @@ layout: default
               {% else %}
                 {% assign section_title = data[0] | capitalize %}
             {% endcase %}
+              {% endif %}
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
               {% case data[0] %}

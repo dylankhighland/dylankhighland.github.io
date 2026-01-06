@@ -653,3 +653,12 @@ jsonresume:
   - languages
   - interests
   - references
+
+# Optional display title overrides for JSON Resume sections.
+# Keys are the internal section keys; values are the headings to display.
+jsonresume_titles:
+  basics: "contact_information"
+  research_experience: "research_experiences"
+  awards: "academic_distinctions"
+  grants: "monetary_grants_and_awards"
+  volunteer: "community_engagement"
