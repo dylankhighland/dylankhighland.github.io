@@ -636,12 +636,18 @@ jekyll_get_json:
 
 jsonresume:
   - basics
+  - research_experience
   - work
   - education
   - publications
-  - projects
-  - volunteer
+  - manuscripts_in_prep_or_review
+  - presentations
+  - mentorship
   - awards
+  - grants
+  - professional_memberships
+  - volunteer
+  - field_expeditions
   - certificates
   - skills
   - languages
