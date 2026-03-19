@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Biology PhD Student at the University of Virginia.
+subtitle: Biology PhD Candidate at the University of Virginia.
 
 profile:
   align: right
