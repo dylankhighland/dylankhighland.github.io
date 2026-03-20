@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Progressed to Candidacy
-date: 2026-03-11 4:35:00-0400
-inline: true
+date: 2025-10-01 4:35:00-0400
+inline: false
 related_posts: false
+published: false
 ---
 
-I am happy to announce that I have passed my qualifying exam and have progressed into PhD Candidacy! 
+I'm so excited to say that the work I did the California Academy of Sciences has been published in the Herpetological Journal!
 
 ---
 
