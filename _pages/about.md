@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Physical and Life Sciences Building, Room 238</p>
+    <p>PLSB Room 238</p>
     <p>University of Virginia</p>
     <p>Charlottesville, VA 22903</p>
 
