@@ -2,7 +2,7 @@
 layout: post
 title: Progressed to Candidacy
 date: 2026-03-11 4:35:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
