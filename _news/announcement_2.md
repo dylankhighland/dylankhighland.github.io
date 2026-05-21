@@ -1,37 +1,11 @@
 ---
 layout: post
-title: Progressed to Candidacy
-date: 2025-10-01 4:35:00-0400
+title: PNAS publication 
+date: 2026-05-021 12:00:00-0400
 inline: false
 related_posts: false
-published: false
+published: true
 ---
 
-I'm so excited to say that the work I did the California Academy of Sciences has been published in the Herpetological Journal!
-
+I'm so excited to share our new research paper, titled ["Evolution of genome-wide barriers to gene flow during complex speciation in rattlesnakes"](https://doi.org/10.1073/pnas.2609058123), has been publised in the Proceedings of the National Academy of Sciences. This work, headed by our postdoc Dr. Keaka Farleigh, describes how reproductive isolation and genome-wide barriers to gene flow evolve across rattlesnake speciation. We found that reproductive isolation is highly polygenic and dynamic, shifting from being localized to a few large-effect loci during early divergence to becoming dominated by genome-wide linked selection as divergence progresses. We show that variation in the rate of introgression is primarily driven by variation in recombination rate rather than gene density, and that the Z chromosome plays a disproportionately large role in reproductive isolation by harboring early-emerging barrier loci
 ---
-
-
-
-
-n shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
-
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
