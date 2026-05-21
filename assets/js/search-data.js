@@ -422,7 +422,12 @@ ninja.data = [{
             },},{id: "news-i-am-happy-to-announce-that-i-have-passed-my-qualifying-exam-and-have-progressed-into-phd-candidacy-my-proposed-projects-seeking-to-describe-the-genomic-consequences-of-coevolution-between-venom-and-resistance-in-rattlesnakes-and-their-prey-will-shine-new-light-on-the-long-standing-questions-regarding-diffuse-coevolution-stay-tuned-for-updates",
           title: 'I am happy to announce that I have passed my qualifying exam and...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-pnas-publication",
+          title: 'PNAS publication',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
