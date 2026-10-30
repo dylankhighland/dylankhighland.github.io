@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "Here, you can find my most recent CV.",
+          description: "Here, you can find my most recent CV. The most complete version is available as a PDF.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Publications in reverse chronicological order. PDFs are for personal use only!",
+          description: "Publications in reverse chronological order. PDFs are for personal use only!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -422,8 +422,8 @@ ninja.data = [{
             },},{id: "news-i-am-happy-to-announce-that-i-have-passed-my-qualifying-exam-and-have-progressed-into-phd-candidacy-my-proposed-projects-seeking-to-describe-the-genomic-consequences-of-coevolution-between-venom-and-resistance-in-rattlesnakes-and-their-prey-will-shine-new-light-on-the-long-standing-questions-regarding-diffuse-coevolution-stay-tuned-for-updates",
           title: 'I am happy to announce that I have passed my qualifying exam and...',
           description: "",
-          section: "News",},{id: "news-pnas-publication",
-          title: 'PNAS publication',
+          section: "News",},{id: "news-farleigh-et-al-2026-published-in-pnas",
+          title: 'Farleigh et al. 2026 | Published in PNAS',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
